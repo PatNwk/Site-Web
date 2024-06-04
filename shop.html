@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sélection</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="./src/css/shop.css">
+    <link rel="stylesheet" href="./src/css/mediumScreen.css">
+    <link rel="stylesheet" href="./src/css/smallScreen.css">
+</head>
+<body>
+    <div class="grid-container">
+        <header class="header header-color">
+            <div class="header-container">
+                <div class="brand">
+                    <a href="site.html">
+                        <span class="icon"></span>
+                        <span class="title">TemspD'élegance</span>
+                    </a>
+                </div>
+                <nav class="nav">
+                    <ul class="list">
+                        <li class="list-item">
+                            <a href="site.html">
+                                <span class="icon"></span>
+                                <span class="title">Acceuil</span>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="shop.html">
+                                <span class="icon"></span>
+                                <span class="title">Shop</span>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="./index.html">
+                                <span class="icon"></span>
+                                <span class="title">Les marques</span>
+                            </a>    
+                            
+                            <ul class="submenu">
+                                <li><a href="audemars.html">Audemars Piguet</a></li>
+                                <li><a href="rolex.html">Rolex</a></li>
+                                <li><a href="#">Cartier</a></li>
+                                <!-- Ajoutez d'autres éléments de sous-menu ici -->
+                            </ul>
+                        </li>
+                        <li class="list-item">
+                            <a href="apropos.html">
+                                <span class="icon"></span>
+                                <span class="title">à propos</span>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="MA.html">
+                                <span class="icon"></span>
+                                <span class="title">Ma propre sélection</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="media">
+                        <a href="https://www.instagram.com/pat.nwk/">
+                            <span class="icon"><i class="fa-brands fa-square-instagram"></i></span>
+                        </a>
+                        <a href="#">
+                            <span class="icon"><i class="fa-brands fa-square-whatsapp"></i></span>
+                        </a>
+                        <a href="#">
+                            <span class="icon"><i class="fa-brands fa-linkedin"></i></span>
+                        </a>
+                        
+                    </div>
+                </nav>
+
+                <div id="burger">
+                    <div class="burger-container">
+                        <div class="line" id="line1"></div>
+                        <div class="line" id="line2"></div>
+                        <div class="line" id="line3"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+<body>
+
+
+<div class=slideshow>
+    <input name="slideshow" id=slide_img1 type="radio" class=slide>
+    <input name="slideshow" id=slide_img2 type="radio" class=slide>
+    <input name="slideshow" id=slide_img3 type="radio" class=slide>
+    <input name="slideshow" id=slide_img4 type="radio" class=slide> 
+    <input name="slideshow" id=play_img1 type="radio" checked>  
+    <input name="slideshow" id=pause_img1 type="radio" class=pause>
+    <input name="slideshow" id=pause_img2 type="radio" class=pause>
+    <input name="slideshow" id=pause_img3 type="radio" class=pause>
+    <input name="slideshow" id=pause_img4 type="radio" class=pause>
+    <ul>
+    <img src="image/0cd8669367815601f8caa5c234032fd7.jpg">
+    <li class=img1>
+    <img src="image/calibre-complique.jpg.png" alt>
+    </li>
+    <li class=img2>
+    <img src="image/De-Bethune-DB28-Kind-of-Blue.jpg.avif" alt>
+    </li>
+    <li class=img3>
+    <img src="image/jeager.jpg.webp" alt>
+    </li>
+    <li class=img4>
+    <img src="image/Richard-Mille-RM-027.jpg.avif" alt>
+    </li>
+    </ul>
+    <div class=play_pause>
+    <label class=play for=play_img1></label>
+    <label class="pause img1" for=pause_img1></label>
+    <label class="pause img2" for=pause_img2></label>
+    <label class="pause img3" for=pause_img3></label>
+    <label class="pause img4" for=pause_img4></label>	
+    </div>
+    <div class=precedent>
+    <label class=img1 for=slide_img1></label>
+    <label class=img2 for=slide_img2></label>
+    <label class=img3 for=slide_img3></label>
+    <label class=img4 for=slide_img4></label>
+    </div>
+    <div class=suivant>
+    <label class=img1 for=slide_img1></label>
+    <label class=img2 for=slide_img2></label>
+    <label class=img3 for=slide_img3></label>
+    <label class=img4 for=slide_img4></label>
+    </div>
+    <div class=puces>
+    <label class=img1 for=slide_img1>
+    <span class=actif_puces></span>
+    </label>
+    <label class=img2 for=slide_img2>
+    <span class=actif_puces></span>
+    </label>
+    <label class=img3 for=slide_img3>
+    <span class=actif_puces></span>
+    </label>	
+    <label class=img4 for=slide_img4>
+    <span class=actif_puces></span>
+    </label>
+    </div> 
+    </div>
+    
+
+    <footer>
+        <div class="container3">
+            <div class="row">
+                <div class="col">
+                    <h1 class="T" >Liens utiles</h1>
+                    <ul>
+                        <li><a href="https://www.instagram.com/pat.nwk/">Instagram</a></li>
+                        <li><a href="#">Linkedin</a></li>
+                        <li><a href="#">Youtube</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h1 class="T">Informations</h1>
+                    <ul>
+                        <li><a href="apropos.html">A propos</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="MA.html">Ma propre sélection</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h1 class="T">Support</h1>
+                    <ul>
+                        <li><a href="index.html">Contact</a></li>
+                        <li><a href="index.html">FAQ</a></li>
+                        <li><a href="index.html">Mentions légales</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h1 class="T">Adresse</h1>
+                    <ul>
+                        <li>1 rue de la Paix</li>
+                        <li>75000 Paris</li>
+                        <li>France</li>
+                    </ul>
+                </div>
+                <img src="image/logo-png.png" alt="Logo" class="logo">
+    </footer>
+    <script src="./src/javascript/main.js"></script>
+</body>
+</html>
